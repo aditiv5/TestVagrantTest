@@ -13,11 +13,11 @@ def gst(amount,gst):
 
 product = [["Leather wallet",1100,18,1],["Umbrella",900,12,4],["cigarette",200,28,3],["Honey",100,0,2]]
 length = len(product)
-final = []
+final_price = []
 max_gst = []
 final = []
 for i in range(length):
-    #for j in range(i+1):
+    
     result1 = discount(product[i][1],product[i][3])
     result2 = gst(result1,product[i][2])
     final_price1 = result1 + result2
