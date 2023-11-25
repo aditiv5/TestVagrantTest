@@ -24,4 +24,4 @@ for i in range(length):
     final_amount.append(final_price1)
     max_gst.append(result2)
 print("Total amount to be paid to shop-keeper:",sum(final_amount))
-print("Product for which we paid maximim GST amount: ",max(max_gst),"for the product",product[1][0])
+print("Maximim GST amount: ",max(max_gst),"for the product",product[1][0])
